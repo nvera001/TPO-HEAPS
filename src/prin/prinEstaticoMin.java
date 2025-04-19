@@ -20,7 +20,7 @@ public class prinEstaticoMin {
     nodo.insertar(10);
     nodo.insertar(9);
     nodo.insertar(11);
-    System.out.println("El nodo padre de este head es: " + nodo.primero());
+    System.out.println("El nodo padre de este heap es: " + nodo.primero());
     System.out.println(" ");
     nodo.mostrarComoArbol();
     System.out.println(" ");
