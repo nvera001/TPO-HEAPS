@@ -25,29 +25,16 @@ public class prinEstaticoMax {
     nodo.insertar(13465);
     nodo.insertar(1234);
     nodo.insertar(14445);
-    System.out.println(nodo.primero());
+    System.out.println("El nodo padre de este head es: " + nodo.primero());
+    System.out.println(" ");
     nodo.mostrarComoArbol();
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
-    System.out.println(nodo.eliminar());
+    System.out.println(" ");
+    System.out.println("Se elimina el nodo padre: "+nodo.eliminar());
+    System.out.println(" ");
+    System.out.println("Después de la eliminación, el heap queda así: ");
+    nodo.mostrarComoArbol();
 
-    System.out.println("    ");
-    nodo.mostrarComoArbol();
-    
+
 
 
     }
