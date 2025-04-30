@@ -61,11 +61,11 @@ public class HeapsEstaticoMin implements HeapsTDA{
         int derecho = hijoDer(i);//Indice de hijo derecho.
         int mayor = i;//Indice de padre.
 
-        if (izquierdo < cantidad && heap[izquierdo] > heap[mayor]) {
+        if (izquierdo < cantidad && heap[izquierdo] < heap[mayor]) {
             mayor = izquierdo;
 
         }
-        if (derecho < cantidad && heap[derecho] > heap[mayor]) {
+        if (derecho < cantidad && heap[derecho] < heap[mayor]) {
             mayor = derecho;
 
         }
